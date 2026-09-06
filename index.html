@@ -44,6 +44,14 @@
         <script type="module">
         import startTic80 from './tic80.js'
 
+        navigator.serviceWorker.register('serviceworker.js').then( registration => {
+            console.log("SW registered");
+            console.log(registration);
+        }).catch( error => {
+            console.error("SW registration: failed");
+            console.error(error);
+        });
+
         const initialize = () => {
             const canvasSelector = '#canvas'
             const canvasElement = document.querySelector(canvasSelector)
