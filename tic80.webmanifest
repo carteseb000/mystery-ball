@@ -1,7 +1,7 @@
 {
   "background_color": "#1a1c2c",
   "theme_color": "#f4f4f4",
-  "description": "TIC-80 is a fantasy computer for making, playing and sharing tiny games.",
+  "description": "A private lottery drawing game. Made using TIC-80.",
   "display": "standalone",
   "icons": [
     {
@@ -23,7 +23,13 @@
       "purpose": "any maskable"
     }
   ],
-  "name": "TIC-80 Tiny Computer",
-  "short_name": "TIC-80",
-  "start_url": "index.html"
+  "name": "Mystery Ball",
+  "short_name": "MBall",
+  "start_url": ".",
+  "orientation": "any",
+  "lang": "en",
+  "dir": "auto",
+  "categories": [
+    "games"
+  ]
 }
